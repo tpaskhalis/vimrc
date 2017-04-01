@@ -1,10 +1,17 @@
+# Install prerequisites
+
+```
+sudo apt-get install software-properties-common python3-dev python3-pip
+```
+
 # Install Neovim
 
 ```
-sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
 sudo apt-get install neovim
+# Install Python3 module
+pip3 install --user --upgrade neovim
 ```
 
 # Install Vundle
@@ -20,7 +27,7 @@ git clone https://github.com/tpaskhalis/vimrc.git ~/vimrc
 ln -s ~/vimrc/vimrc ~/.vimrc
 ```
 
-# Neovim
+# [...] neovim
 
 ```
 mkdir ~/.config
