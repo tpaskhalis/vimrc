@@ -16,7 +16,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # Get vimrc and symlink for vim/neovim
 
 ```
-git clone tpaskhalis/vimrc ~/vimrc
+git clone https://github.com/tpaskhalis/vimrc.git ~/vimrc
 ln -s ~/vimrc/vimrc ~/.vimrc
 ln -s ~/.vimrc ~/.config/nvim/init.vim
 vim +PluginInstall +qall
